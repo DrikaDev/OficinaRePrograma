@@ -1,0 +1,148 @@
+body{
+    font-size: 12px;
+}
+
+.caixa-banner{
+    background-image: url(../IMG/eunapraia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+}
+
+.subtitulo1{
+    font-size: 28px;
+    text-shadow: 2px 2px black;
+}
+
+.link-sobre{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #552222;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.link-cv{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: #552222;
+    padding: 8px 20px;
+    border-radius: 20px;
+ }
+
+.caixa-sobre{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.nome{
+    font-weight: bold;
+}
+
+.lado1{
+    width: 35%;
+}
+
+margin-texto{
+    margin-bottom: 40px;
+}
+
+.lado2{
+    width: 35%;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.ul{
+    line-height: 1.8;
+}
+
+.titulo-sobre{
+    margin-left: 100px;
+    font-size: 35px;
+    color: #413e3e;
+}
+
+.caixa-links{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .imagem{
+     width: 100%;
+  }
+  
+  .div{
+     width: 30%;
+  }
+  
+  .links{
+     background-color: #552222;
+     width: 170px;
+     height: 170px;
+     text-align: center;
+     text-decoration: none;
+     color: white;
+  }
+  
+  .icone{
+     width: 50px;
+     height: 50px;
+     margin-top: 30px;
+  }
+    
+  @media(max-width: 710px){
+     .caixa-sobre{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+  
+     .lado1{
+        width: 80%;
+        text-align: justify;
+     }
+  
+     .lado2{
+        width: 80%;
+     }
+  
+     .titulo-sobre{
+        margin: 20px;
+        text-align: center;
+        font-size: 30px;
+     }
+  
+     .links{
+        margin-top: 10px;
+        width: 250px;
+        height: 250px;
+        font-size: 20px;
+     }
+  
+     .icone{
+        margin-top: 40px;
+     }
+  }
